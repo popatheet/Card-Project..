@@ -1,0 +1,96 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Exercise 3 Card Challenge</title>
+    <style>
+      body {
+        background-color: whitesmoke;
+      }
+      .border-radius {
+        border: 2px solid white;
+        height: 380px;
+        width: 200px;
+        border-radius: 10px;
+        padding: 7px;
+        margin: 8px;
+        background-color: orange;
+        box-shadow: 5px 5px lch(from color l c h);
+        position: relative;
+        left: 500px;
+        top: 100px;
+        font-family: "Open Sans", sans-serif;
+      }
+      .image {
+        height: 150px;
+        width: 200px;
+        border-radius: 10px;
+        display: block;
+      }
+      button {
+        border-radius: 10px;
+        border-color: white;
+        border-width: 1px;
+        position: relative;
+        left: 10px;
+        top: 10px;
+        background-color: whitesmoke;
+        font-family: "Open Sans", sans-serif;
+      }
+      .button2 {
+        position: relative;
+        left: 50px;
+        color: blue;
+        height: 30px;
+        border-width: 1px;
+        border-radius: 20px;
+        background-color: lightblue;
+        font-weight: bold;
+        font-family: "Open Sans", sans-serif;
+      }
+      .para {
+        padding: 5px;
+        font-family: "Open Sans", sans-serif;
+        position: relative;
+        top: 10px;
+      }
+      .heading {
+        padding: 5px;
+        position: relative;
+        top: 10px;
+        font-family: "Open Sans", sans-serif;
+      }
+      @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+    </style>
+  </head>
+  <body>
+    <div class="border-radius">
+      <div>
+        <img src="images.jpeg" alt="unknown man picture" class="image" />
+      </div>
+      <div>
+        <span class="span">
+          <caption class="caption1">
+            <button>Cool</button>
+            <button>Aesthetic</button>
+          </caption>
+        </span>
+      </div>
+      <div>
+        <h3 class="heading">Lago Di Braies</h3>
+      </div>
+      <div>
+        <p class="para">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore,
+          alias.
+        </p>
+      </div>
+      <div>
+        <button class="button2">Read More</button>
+      </div>
+    </div>
+  </body>
+</html>
